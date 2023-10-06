@@ -41,3 +41,28 @@ console.log(typeof fruits)
 const myFunction=function(){
     console.log("hello world")
 }
+
+/********************************************************************************** */
+
+//Memory 
+//Stack(Primitive)- yha pe copy milti hai 
+//below example original value remains same only copy is created
+let myjob="DataAnalyst"
+let newjob=myjob
+newjob="softwareDeveloper"
+console.log(myjob)
+console.log(newjob)
+
+//Heap(non-primitive)-yha se refrerence milta h jab vale isme define hoti hai
+//in below example the email in user1is also changed because of reference
+//changes are made in original value
+let user1={
+    email:"love@gmail.com",
+    upi:"love@oksbi"
+
+}
+let user2=user1
+
+user2.email="deep@google.com"
+console.log(user1.email)
+console.log(user2.email)
