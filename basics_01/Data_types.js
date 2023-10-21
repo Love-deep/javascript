@@ -17,7 +17,7 @@ let isloggedIn=false //boolean
 //string => " " or '' prefer doble " "
 //boolean => true/false
 //null =>  standalone value
-//indefined => when we declare variable but doesnt give value
+//undefined => when we declare variable but doesnt give value
 //Symbol => to find unique
 
 //object
@@ -25,3 +25,4 @@ let isloggedIn=false //boolean
 console.log(typeof name);
 console.log(typeof null); //output is object
 console.log(typeof undefined); //output is undefined because its a type 
+

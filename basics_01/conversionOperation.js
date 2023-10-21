@@ -1,13 +1,13 @@
 /*let score="23ab"
 console.log(typeof(score)); //string
 console.log(typeof score);  //both method are same
-  
-
+  */
+/*
 let valueInNumber=Number(score)  
 console.log(typeof valueInNumber)  //number
 //to check which number comes
 console.log(valueInNumber)
-
+*/
 //"33\"=> 33
 //"33abc" => NaN
 //true=1 false=0
@@ -20,10 +20,10 @@ console.log(booleanIsLoggedIn)
 //""=>false
 //"love"=>true
 
-*/
+
 
 /******************* Operations ***********************/
-let value=3
+/*let value=3
 let negvalue=-value
 console.log(negvalue)
 
@@ -49,4 +49,4 @@ console.log(+"")  //0
 
 let gamecounter=10
 ++gamecounter             //read prefix and postfix
-console.log(gamecountercounter)
+console.log(gamecountercounter)*/
