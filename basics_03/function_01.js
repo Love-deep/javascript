@@ -60,3 +60,32 @@ console.log(loginuserMessage()); //it print lovedeep just logged in as we define
 console.log(loginuserMessage('sam')); // value verwrite kar di h to upper declare
 //lovedeep ki jgh ab sam just logged in pint hoga
 
+
+//agar hme pta hi n ho kitne arguments aane wale hai to hm ese use krte hai function 
+function calculateCartPrive(...num){      //akela num will store only 200 agar ... lgade jiska matlab rest operator hota hai to jitna chahhe utna store kro or wo array bnake store kr deta h
+    return num
+}
+//console.log(calculateCartPrive(200,300,400));
+
+
+/***********passing object in function*******************/
+const user={
+    username:'love',
+    price:900
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+//handleObject(user)
+
+//or we directly pass object in function name
+/*handleObject({
+    username:'lovie',
+    price:100
+})*/
+
+const arr=[200,300,500]
+function returnSecondvalue(getarray){
+    return getarray[1]
+}
+console.log(returnSecondvalue(arr)); //or direclt put values here dont need to declare array above
