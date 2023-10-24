@@ -36,3 +36,32 @@ console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty('name'));
+
+/****************************De-structure of object ********************/
+
+const course={
+    coursename:'javascript',
+    price:'900',
+    courseInstructor:'lovedeep'
+}
+
+//const{courseInstructor}=course //or we can change name also as below
+const{courseInstructor:instructor}=course //now we call courseinstructor as instructor only
+//console.log(courseInstructor);
+console.log(instructor);
+
+
+//json form
+/*{
+coursename:'javascript',
+price:'900',
+courseInstructor:'lovedeep'
+}*/
+
+//it can be like below also objects inside array its for api 
+//yha p bus basics bta rha hu ese hota h futher baaki aage seekhenge
+[
+    {},
+    {},
+    {}
+]
