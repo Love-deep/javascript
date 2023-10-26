@@ -38,4 +38,22 @@ if (true) {
 }
 //console.log(username);
 
-/****************************interesting***************/
+/****************************interesting*************************/
+console.log(addone(5));
+function addone(num) {
+    return num+1   
+    
+}
+
+//addone(5)  //yha se htake upper likha or run kr jayega 6 ansewer dega
+//neeche bhi likhoge to bhi chl jayega
+
+addtwo(5)
+const addtwo=function (num) {
+    return num+2    
+}
+//addtwo(5) //isko jab upper .ikhege to error a jayega kyunki yha
+//declare krne ke baad hmne use is ek var me store kr diya hai isliye error
+
+
+// dono syntax me yhi antar jo upper btaya h so yaad rkhna in dono ko
