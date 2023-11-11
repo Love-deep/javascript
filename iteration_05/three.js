@@ -28,7 +28,9 @@ for (const key of map) {
     
 }
 for (const [key,value] of map) {
-    console.log(key,':-',value); //print in array 
+    console.log(key,':-',value); 
     
-}
+}   //object me same treeke se loop nhi lagte
+
+
 
